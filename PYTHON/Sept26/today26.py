@@ -140,3 +140,15 @@ f=a&b
 g=~e
 print(d, e, f,g)
 
+Take a boolean value a as an input. The program should display its numeric representation:
+
+1 for "true"
+0 for "false"
+
+a = "true"  # Or a = input()
+
+output = 1 if a == "true" else 0
+
+print(output)  # Outputs: 1
+
+
